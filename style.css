@@ -45,9 +45,13 @@ img {
     rgba(75, 85, 87, 1) 97%
   );
   padding: 0 1rem;
-  position: fixed;
-  top: 0;
+
   width: 100%;
+}
+
+#head_ {
+  position: sticky;
+  top: 0;
 }
 
 #ul_ {
@@ -191,4 +195,3 @@ figcaption strong {
   font-size: 2rem;
   text-decoration: underline;
 }
-
